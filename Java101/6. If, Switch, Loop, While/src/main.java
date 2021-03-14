@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class main
@@ -89,6 +90,7 @@ public class main
 		*/
 		
 		//nested loops
+		/*
 		Scanner scanner = new Scanner(System.in);
 		int rows;
 		int columns;
@@ -109,6 +111,25 @@ public class main
 				System.out.print(symbol);
 			}
 		}
+		*/
+		
+		//for-each loops
+		/*
+		ArrayList<String> goingThroughArray = new ArrayList<String>();
+		goingThroughArray.add("item1");
+		goingThroughArray.add("item2");
+		goingThroughArray.add("item3");
+		goingThroughArray.add("item4");
+		goingThroughArray.add("item5");
+		
+		for(var i : goingThroughArray)
+		{
+			System.out.println(i);
+		}
+		*/
+		
+		
+		
 	}
 
 }
